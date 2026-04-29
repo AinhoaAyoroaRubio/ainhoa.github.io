@@ -7,7 +7,7 @@
    - `index.html`
    - `styles.css`
 3. Haz commit en la rama `main`.
-4. Entra a `https://ainhoayoroarubio.github.io/`.
+4. Entra a `https://ainhoaayoroarubio.github.io/ainhoa.github.io/`.
 
 ## Nota importante
 
