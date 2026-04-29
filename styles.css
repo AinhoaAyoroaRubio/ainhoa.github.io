@@ -475,7 +475,7 @@ h1 {
 
 .acceso {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 18rem;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 22rem);
   gap: 2rem;
   align-items: center;
 }
@@ -485,19 +485,25 @@ h1 {
 }
 
 .qr-card {
+  width: 100%;
+  max-width: 22rem;
+  justify-self: end;
   padding: 1rem;
   border-radius: var(--radio-medio);
   text-align: center;
   background: white;
   color: var(--color-texto);
+  overflow: hidden;
 }
 
 .qr-imagen {
-  width: 13rem;
-  aspect-ratio: 1;
+  width: 100%;
+  max-width: 16rem;
+  height: auto;
   display: block;
   margin: 0 auto 1rem;
   padding: 0.7rem;
+  box-sizing: border-box;
   border: 2px solid var(--color-borde);
   border-radius: 1.25rem;
   background: white;
@@ -588,6 +594,7 @@ h1 {
 
   .qr-card {
     max-width: 22rem;
+    justify-self: start;
   }
 }
 
